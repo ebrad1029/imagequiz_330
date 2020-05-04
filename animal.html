@@ -11,15 +11,28 @@
     <h4>
       <a href="quiz_330.html" class=button>Return Home</a>
     </h4>
-    <div id="container">
+    <div class="container">
       <form id="quiz" name="quiz">
         <p>1. What type of animal is this?</p><br>
           <input type="radio" name="q1" value="Elephant" id="mc">Elephant<br/>
           <input type="radio" name="q1" value="Giraffe" id="mc">Giraffe<br/>
-          <input id="button" type="button" value="Submit" onclick="answer()">
+
+        </p>
+        <img src="elephant.jpg" alt="deer">
+        <p>2. What type of animal is this?</p><br>
+          <input type="radio" name="q2" value="Elephant" id="mc">Giraffe<br/>
+          <input type="radio" name="q2" value="Deer" id="mc">Deer<br/>
+        </p>
+        <img src="deer.jpg" alt="deer">
+
+        <p>3. What type of animal is this?</p><br>
+          <input type="radio" name="q3" value="Dog" id="mc">Dog<br/>
+          <input type="radio" name="q3" value="Cat" id="mc">Cat<br/>
+        </p>
+        <img src='dog.jpg' alt=Dog>
+        <br>
+        <input id="button" type="button" value="Submit" onclick="quiz_1()">
       </form>
-     
-      <img src="elephant.jpg" alt="deer">
     </div>
 
      <p id="number_correct"></p>

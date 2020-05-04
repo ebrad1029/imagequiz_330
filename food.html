@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Types of Food Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src= "main.js"></script>
+  </head>
+  <body>
+    <h1> Types of Food Quiz </h1>
+    <h4>
+      <a href="quiz_330.html" class=button>Return Home</a>
+    </h4>
+    <div class="container">
+      <form id="quiz" name="quiz">
+        <p>1. What type of food is this?</p><br>
+          <input type="radio" name="q1" value="Burger" id="mc">Burger<br/>
+          <input type="radio" name="q1" value="Sandwhich" id="mc">Sandwhich<br/>
+        </p>
+        <img src="burger.jpg" alt="Burger">
+
+        <p>2. What type of food is this?</p><br>
+          <input type="radio" name="q2" value="Pizza" id="mc">Pizza<br/>
+          <input type="radio" name="q2" value="Pasta" id="mc">Pasta<br/>
+        </p>
+        <img src="pasta.jpg" alt="Pasta">
+
+        <p>3. What type of food is this?</p><br>
+          <input type="radio" name="q3" value="Orange" id="mc">Orange<br/>
+          <input type="radio" name="q3" value="Apple" id="mc">Apple<br/>
+        </p>
+        <img src="orange.jpg" alt="Orange">
+        <input id="button" type="button" value="Submit" onclick="quiz_2()">
+      </form>
+    </div>
+    <p id="number_correct"></p>
+  </body>
+</html>

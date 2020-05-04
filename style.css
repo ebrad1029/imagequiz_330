@@ -1,8 +1,17 @@
-#container {
-    width: 800px;
-    height: 600px;
+#index {
+  width: 1400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    width:  900px;
+    height: 1200px;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid;
+    border-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +42,7 @@
 
 body {
   text-align: center;
+  background-color: #cfddfc;
 }
 
 img {
